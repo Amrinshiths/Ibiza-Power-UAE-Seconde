@@ -3,12 +3,12 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-      <section>
+      <section className='bg-bgColor m-4'>
         <div class=" py-6 md:py-12">
-          <div class="container px-4 mx-auto">
+          <div class="container  mx-auto">
 
             <div class="text-center max-w-2xl mx-auto">
-              <h1 class="text-3xl md:text-4xl font-medium mb-2">Contact</h1>
+            <h1 class="font-bold text-4xl mb-4 text-headingColor ">Contact</h1>
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@ function Contact() {
        ></iframe>
      </div>
    </div>
-      <section class="bg-blue-50 dark:bg-slate-800" id="contact">
+      <section class="bg-bgColor " id="contact">
         <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div class="mb-4">
             <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
@@ -34,11 +34,11 @@ function Contact() {
                 Contact
               </p>
               <h2
-                class="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+                class="font-heading mb-4 font-bold tracking-tight text-headingColor text-3xl sm:text-5xl">
                 Get in Touch
               </h2>
-              <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">In hac habitasse platea
-                dictumst
+              <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">
+              IBIZA POWER ENERGY SYSTEM
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ function Contact() {
                 </p>
                 <ul class="mb-6 md:mb-0">
                   <li class="flex">
-                    <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <div class="flex h-10 w-10 items-center justify-center rounded bg-headingColor text-gray-50">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="h-6 w-6">
@@ -61,7 +61,7 @@ function Contact() {
                       </svg>
                     </div>
                     <div class="ml-4 mb-4">
-                      <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
+                      <h3 class="mb-2 text-lg font-medium leading-6 text-headingColor2">Our Address
                       </h3>
                       <p class="text-gray-600 dark:text-slate-400">  15th st alqusais ind area 4 close to moontoysP.O BOX 82656</p>
                       <p class="text-gray-600 dark:text-slate-400">DUBAI, U.A.E</p>
@@ -80,10 +80,10 @@ function Contact() {
                       </svg>
                     </div>
                     <div class="ml-4 mb-4">
-                      <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
+                      <h3 class="mb-2 text-lg font-medium leading-6 text-headingColor2">Contact
                       </h3>
                       <p class="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
-                      <p class="text-gray-600 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                      <p class="text-gray-600 dark:text-slate-400">Mail: ibizapowerenergysystemllc@gmail.com</p>
                     </div>
                   </li>
                   <li class="flex">
@@ -96,10 +96,11 @@ function Contact() {
                       </svg>
                     </div>
                     <div class="ml-4 mb-4">
-                      <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
+                      <h3 class="mb-2 text-lg font-medium leading-6 text-headingColor2">Working
                         hours</h3>
-                      <p class="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
-                      <p class="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                      <p class="text-gray-600 dark:text-slate-400">Monday - Friday: 8:30AM - 7:00 pm</p>
+                      <p class="text-gray-600 dark:text-slate-400"> Saturday: 9AM - 1PM</p>
+                      <p class="text-gray-600 dark:text-slate-400"> Sunday: Closed</p>
                     </div>
                   </li>
                 </ul>
@@ -121,7 +122,7 @@ function Contact() {
                     </div>
                   </div>
                   <div class="text-center">
-                    <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                    <button type="submit" class="w-full bg-headingColor text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
                   </div>
                 </form>
               </div>

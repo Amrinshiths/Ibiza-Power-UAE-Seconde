@@ -11,7 +11,7 @@ import {HiStar} from 'react-icons/hi'
 
 function Terminational() {
   return (
-    <div className='md:mt-[30px] px-32'>
+    <div className='md:mt-[30px]  items-center py-7 bg-bgColor'>
         <Swiper
         modules={{Pagination}}
         spaceBetween={30} 
