@@ -49,10 +49,10 @@ function Header() {
 
   return (
     <header className='header items-center bg-bgColor' ref={headerRef}>
-      <div className="container m-6">
+      <div className="container md:m-6">
         <div className="flex items-center justify-between gap-6">
           {/* ==============logo============= */}
-          <div className="w-80 h-full px-10">
+          <div className="w-80 px-10 h-full md:px-10">
             <img src={logoImg} alt="" />
           </div>
 
@@ -85,14 +85,14 @@ function Header() {
                 </figure>
               </Link>
             </div>
-            <div class="relative text-gray-600">
+            <div class=" hidden md:block relative text-gray-600">
               <input type="search" name="serch" placeholder="Search" class="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none" />
               <button type="submit" class="absolute right-0 top-0 mt-8 mr-4">
                 <svg class="h-4 w-4 " >  <FaSearch />  </svg>
               </button>
             </div>
-            <span className="md:hidden" onClick={toggleMenu}>
-              <BiMenu className="w-6 h-6 cursor-pointer" />
+            <span className="md:hidden block" onClick={toggleMenu}>
+              <BiMenu className="w-20 h-20 pr-5 cursor-pointer" />
             </span>
 
           </div>

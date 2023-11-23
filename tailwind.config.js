@@ -11,9 +11,11 @@ export default {
       },
       colors: {
         bgColor: "#F7F6F6",
+        bgColor2:'#02426B',
         headingColor: "#051965",
         headingColor2: "#232234",
         textColor: "#827791",
+
       },
       fontFamily: {
         sans: ['Poppins'],
