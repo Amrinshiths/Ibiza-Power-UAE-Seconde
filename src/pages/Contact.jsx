@@ -21,7 +21,7 @@ function Contact() {
          height="300px"
          frameBorder="0"
          style={{ border: 0 }}
-         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCW2rD1iN9Jt7LP0N5R4t2NE5L9QME1bFg&q=Al+qaizi+building,Dubai&zoom=17"
+         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.311783107001!2d55.39593757453892!3d25.293726827785697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d16663e3271%3A0x45953b2e8c9268a9!2sIBIZA%20POWER%20ENERGY!5e0!3m2!1sen!2sae!4v1700846218106!5m2!1sen!2sae" 
          allowFullScreen
        ></iframe>
      </div>
@@ -82,7 +82,8 @@ function Contact() {
                     <div class="ml-4 mb-4">
                       <h3 class="mb-2 text-lg font-medium leading-6 text-headingColor2">Contact
                       </h3>
-                      <p class="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
+                      <p class="text-gray-600 dark:text-slate-400">Mobile:+971-522707656 </p>
+                      <p class="text-gray-600 dark:text-slate-400">Mobile:+971-555596631 </p>
                       <p class="text-gray-600 dark:text-slate-400">Mail: ibizapowerenergysystemllc@gmail.com</p>
                     </div>
                   </li>
@@ -135,3 +136,4 @@ function Contact() {
 }
 
 export default Contact
+
