@@ -1,20 +1,21 @@
 import React from 'react'
-import Carousel from './Carousel/Carousel'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 import Terminational from './Brand/Brand'
 import aboutImg from '../assets/about.jpeg'
 import MapContact from './Contact/MapContact'
 import ProductFeature from './ProductFeature/ProductFeature'
+import CuroselSwiper from './Carousel/Curosel-Swiper'
+import Carousel from './Carousel/Carousel'
 
 function Home() {
-  
+
   return (
     <div>
-      <Carousel />
-      
-      
-      
+      <CuroselSwiper />
+
+
+
       {/* ===============Hero Section End======== */}
       <>
         <section>
@@ -81,14 +82,16 @@ function Home() {
           </div>
         </section>
       </>
-      <section>
-        <div className="header px-20 font-medium text-3xl ">
-          <h2>FEATURED CATEGORIES</h2>
-        </div>
-        <ProductFeature/>
+      <section className='items-center '>
+
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 text-center md:text-5xl lg:text-6xl text-headingColor2">Featured Products</h1>
+        <p class="mb-6 text-lg font-normal text-gray-500 text-center lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">We're dedicated to providing you with the very best items..</p>
+
+
+        <Carousel />
       </section>
       <section class="px-2 py-10 bg-white md:px-0">
-      
+
         <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div class="flex flex-wrap items-center sm:-mx-3">
             <div class="w-full md:w-1/2 md:px-3">
@@ -103,7 +106,7 @@ function Home() {
                     Explore me
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                   </Link>
-                 
+
                 </div>
               </div>
             </div>
@@ -115,10 +118,11 @@ function Home() {
           </div>
         </div>
       </section>
-      <MapContact/>
-      <div className="header px-20 font-medium text-3xl ">
-          <h2>Shop by Brand</h2>
-        </div>
+      <MapContact />
+      <section>
+      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 text-center md:text-5xl lg:text-6xl text-headingColor2">Our Brand</h1>
+        <p class="mb-6 text-lg font-normal text-gray-500 text-center lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Our Own Brand is More explored .....</p>
+      </section>
       <Terminational />
 
 

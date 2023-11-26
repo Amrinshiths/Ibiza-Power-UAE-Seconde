@@ -7,7 +7,12 @@ export default {
       backgroundImage:{
         'hero': "url('/src/assets/bg.jpg')",
         'action': "url('/src/assets/action.png')",
-        'image': "url('src/assets/solar pannel.jpg')"
+        'image': "url('src/assets/solar pannel.jpg')",
+        'hero2' :" url('src/assets/images/Banner/Battery.jpg')",
+        'hero1'  : "url('src/assets/images/Banner/solar.jpg')",
+        'hero3': "url('src/assets/images/Banner/Tyer.jpg')",
+        'hero4': "url('src/assets/images/Banner/Tyer Banner.jpg')",
+
       },
       colors: {
         bgColor: "#F7F6F6",
